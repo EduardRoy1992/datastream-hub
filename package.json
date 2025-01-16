@@ -28,7 +28,7 @@
   "main": "index.js",
   "devDependencies": {
     "@ensdomains/dnsprovejs": "^0.5.1",
-    "@ensdomains/hardhat-chai-matchers-viem": "^0.0.8",
+    "@ensdomains/hardhat-chai-matchers-viem": "^0.0.6",
     "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
     "@types/mocha": "^9.1.1",
     "@types/node": "^18.0.0",
@@ -47,7 +47,7 @@
     "prettier-plugin-solidity": "^1.0.0-beta.24",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
-    "viem": "^2.22.9"
+    "viem": "^2.12.0"
   },
   "dependencies": {
     "@ensdomains/buffer": "^0.1.1",
