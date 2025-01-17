@@ -21,8 +21,7 @@
     "build",
     "contracts/**/*.sol",
     "artifacts",
-    "deployments/mainnet/*.json",
-    "deployments/archive/**/*.json"
+    "deployments"
   ],
   "main": "index.js",
   "devDependencies": {
