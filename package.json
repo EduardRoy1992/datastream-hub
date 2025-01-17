@@ -15,8 +15,7 @@
     "prepublishOnly": "bun run build",
     "pub": "npm publish --access public",
     "wikiCheck": "bun ./scripts/wikiCheck.ts",
-    "postinstall": "patch-package",
-    "prepare": "husky"
+    "postinstall": "patch-package"
   },
   "files": [
     "build",
