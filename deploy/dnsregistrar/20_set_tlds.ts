@@ -39,8 +39,8 @@ const func: DeployFunction = async function (hre) {
   const suffixList = await (
     await fetch('https://publicsuffix.org/list/public_suffix_list.dat', {
       headers: {
-        Connection: 'close'
-      }
+        Connection: 'close',
+      },
     })
   ).text()
 
